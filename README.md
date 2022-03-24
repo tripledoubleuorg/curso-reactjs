@@ -16,38 +16,38 @@ React é um biblioteca javascript utilizada para a construção de interfaces. [
 **Terminal**
 
 ```
-npx create-react-app@latest primeira-app
-cd primeira-app
+npx create-react-app@latest nome-app
+cd nome-app
 npm start
 ```
 
-Após da instalação devemos limpar a nossa aplicação.
+Após a instalação devemos limpar a nossa aplicação.
 
 ## Conceitos do React
 
 ### Componentes
 
-Componentes são funções que retornam o HTML, CSS e Javascript que determina como um elemento aparece no ecrã.
+Um componente é uma função em Javascript que determina como um elemento aparece no ecrã. Cada componente funciona como um bloco independente e reutilizável.
 
-**Componente.jsx**
+**Componente.js**
 
-```jsx
-import React from 'react';
-
+```js
 export function Componente() {
    return <h1>O meu primeiro componente</h1>
 }
 ```
 
-**index.jsx**
+**App.js**
 
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {Componente} from './components/MeuComponente'
+```js
 
-const elementoID = document.getElementById('root');
-ReactDOM.render( <Componente />, elementoID);   
+import {Componente} from './components/Componente'
+
+function App(){
+   return <Componente />
+}
+
+export default App();
 ```
 
 ### JSX
@@ -62,31 +62,32 @@ O termo props é uma convenção, mas pode-se utilizar qualquer outra palavra.
 **Componente.js**
 
 ```jsx
-import React from 'react';
-
 export function Componente(props) {
    return <h1>O meu nome é {props.nome}</h1>
 }
 ```
 
-**index.jsx**
+**App.js**
 
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {Componente} from './components/MeuComponente'
+```js
 
-const elementoID = document.getElementById('root');
-ReactDOM.render( <Componente nome="João" />, elementoID);   
+import {Componente} from './components/Componente'
+
+function App(){
+   return <Componente nome="Sara"/>
+}
+
+export default App();
 ```
 
 ### Estados
 
-Os elementos do React, uma vez renderizados, são imutáveis. Para alterar um elemento é preciso alterar o seu estado. Recente foi introduzido os *hooks* que facilitam muito este processo.
+Os elementos do React, uma vez renderizados, são imutáveis. Para alterar um elemento é preciso alterar o seu estado de modo que este seja de nove renderizado. 
+Recente foi introduzido o hook 'useState()' que facilita muito este processo.
 
-**Contador.jsx** 
+**Contador.js** 
 
-```jsx
+```js
 import { useState } from 'react';
 
 export function Contador() {
