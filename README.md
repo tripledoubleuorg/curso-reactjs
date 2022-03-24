@@ -1,8 +1,17 @@
-# ReactJS
+# Introdução do ReactJS
+
+- O que é o React?
+- Pré-requisitos do ReactJS
+- Começar um projecto React
+- Conceitos do React
+-- Componentes
+-- Propriedades
+-- JSX
+-- Estados
 
 ## O que é o ReactJS?
 
-React é um biblioteca javascript utilizada para a construção de interfaces. [[https://reactjs.org/](https://reactjs.org/)]
+Criado pela Facebook (Meta), o React é uma biblioteca JavaScript utilizada para a construção de interfaces. [[https://reactjs.org/](https://reactjs.org/)]
 
 ## Pré-requisitos do ReactJS
 
