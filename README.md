@@ -4,10 +4,11 @@
 - Pré-requisitos do ReactJS
 - Começar um projecto React
 - Conceitos do React
--- Componentes
--- Propriedades
--- JSX
--- Estados
+   - Componentes
+   - Propriedades
+   - JSX
+   - Estados
+
 
 ## O que é o ReactJS?
 
