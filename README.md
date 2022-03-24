@@ -1,9 +1,9 @@
 # Introdução do ReactJS
 
-- O que é o React?
+- O que é o ReactJS?
 - Pré-requisitos do ReactJS
-- Começar um projecto React
-- Conceitos do React
+- Começar um projecto ReactJS
+- Conceitos do ReactJS
    - Componentes
    - Propriedades
    - JSX
@@ -12,16 +12,16 @@
 
 ## O que é o ReactJS?
 
-Criado pela Facebook (Meta), o React é uma biblioteca JavaScript utilizada para a construção de interfaces. [[https://reactjs.org/](https://reactjs.org/)]
+Criado pela Facebook (Meta), o ReactJS é uma biblioteca JavaScript utilizada para a construção de interfaces. [[https://reactjs.org/](https://reactjs.org/)]
 
 ## Pré-requisitos do ReactJS
 
 - Conhecimentos de HTML e CSS;
 - Conhecimentos de Javascript + ES6;
 - Compreender o DOM;
-- Ter o Node e NPM instalados globalmente.
+- Ter Node e NPM instalados globalmente.
 
-## Começar um projecto React
+## Começar um projecto ReactJS
 
 **Terminal**
 
@@ -33,7 +33,7 @@ npm start
 
 Após a instalação devemos limpar a nossa aplicação.
 
-## Conceitos do React
+## Conceitos do ReactJS
 
 ### Componentes
 
@@ -62,7 +62,7 @@ export default App();
 
 ### JSX
 
-A maioria dos componetes em React são escritos em JSX, uma extensão da sintaxe do Javascript que apesar de parecer HTML é Javascript com XML.
+A maioria dos componetes em ReactJS são escritos em JSX, uma extensão da sintaxe do Javascript que apesar de parecer HTML é Javascript com XML.
 
 ### Propriedades
 
@@ -92,7 +92,7 @@ export default App();
 
 ### Estados
 
-Os elementos do React, uma vez renderizados, são imutáveis. Para alterar um elemento é preciso alterar o seu estado de modo que este seja de nove renderizado. 
+Os elementos do ReactJS, uma vez renderizados, são imutáveis. Para alterar um elemento é preciso alterar o seu estado de modo que este seja de nove renderizado. 
 Recente foi introduzido o hook 'useState()' que facilita muito este processo.
 
 **Contador.js** 
