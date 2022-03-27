@@ -113,3 +113,5 @@ export function Contador() {
   );
 ```
 
+### Ciclos de Vida
+
